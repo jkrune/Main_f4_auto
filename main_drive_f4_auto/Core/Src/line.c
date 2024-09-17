@@ -819,7 +819,7 @@ void nang_ha_led(uint8_t nang_ha)
 	}else{__HAL_TIM_SET_COMPARE(&htim3,TIM_CHANNEL_2,85);}
 }
 void cho_lenh(uint8_t lenh)
-{x
+{
 	while(!(values[0] != 0 && values[0] == lenh))
 		{
 		flag = 0;
