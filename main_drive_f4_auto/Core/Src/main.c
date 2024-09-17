@@ -57,7 +57,7 @@ int main(void)
 //		linefollow_rightside_time(Basic_speed,1200);
 //		linefollow_backward(Basic_speed);
 //		delay_ms(10000);
-
+		run_turn_angle(20, 50);
 
 		chienthuat_1();
 
